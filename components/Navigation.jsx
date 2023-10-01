@@ -9,13 +9,14 @@ import '@styles/globals.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faUser } from '@fortawesome/free-solid-svg-icons'
 import { faBars } from "@fortawesome/free-solid-svg-icons";
+import NavOptions from './NavOptions'
 
 
 const Navigation = () => {
   const [toggleDropdown, setDropdown] = useState(false);
 
   return (
-    <div className="flex justify-between px-32 m-0 items-center text-white h-20 w-full p-5 nav-bg fixed">
+    <div className="flex justify-between px-32 m-0 items-center text-white h-20 w-full p-5 nav-bg fixed top-0 z-50">
       <Link 
         href='/'
         className="flex gap-1 justify-items-center items-center"
@@ -31,12 +32,7 @@ const Navigation = () => {
       </Link>
 
       <div className=' flex gap-6 items-center'>
-        <Link
-        href='/account'
-        className='nav-text'
-        >
-          Sign Out
-        </Link>
+      <NavOptions className=" w-fit h-fit" />
 
 
         <div

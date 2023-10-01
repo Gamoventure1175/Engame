@@ -7,14 +7,7 @@
 @tailwind utilities;
 
 .main{
-    width: 100vw;
-    min-height: 100vh;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    overflow: hidden;
     user-select: none;
-    justify-content: center;
     font-family: 'Inconsolata', monospace;
     background-image: linear-gradient(to bottom, #111111, #1c193b, #221f66, #2a2294, #3a20c2, #5735d6, #7149ea, #895dff, #a687ff, #c3b0ff, #e0d7ff, #ffffff);
 }
@@ -23,15 +16,14 @@
 
 .nav-bg {
     background: rgb(17,17,17);
-    background: linear-gradient(180deg, rgba(17,17,17,1) 46%, rgba(9,9,121,0.10415504092261907) 100%);
+    background: linear-gradient(180deg, rgba(17,17,17,1) 46%, rgba(9,9,121,0) 100%);
 }
 
 .nav-icons {
     display: block;
-    font-size: 1.8em;
+    font-size: 2.4em;
     cursor: pointer;
     transition: .5s;
-
 }
 
 .nav-icons:hover{
@@ -50,3 +42,24 @@
     @apply text-lg px-2 py-1  text-black w-full hover:bg-slate-800 hover:text-gray-400 font-medium transition-[.2s];
   }
 
+/* Carousel */
+.carousel-background {
+    background-image: linear-gradient(rgba(133, 9, 93, 0.7),
+    rgba(9, 36, 143, 0.7));
+}
+
+/* Header */
+.header-background {
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7),
+    rgba(4,9,30,0.7)), 
+    url(/public/assets/images/background.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+/* Engame */
+.engame{
+    background-color: rgba(17,17,17,.8);
+    border-radius: 2em;
+    box-shadow: 0px 0px 22px 2px rgba(17,17,17,.9);
+}
