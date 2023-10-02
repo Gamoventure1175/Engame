@@ -3,12 +3,12 @@ import React from 'react'
 import pacman from "@public/assets/gameposters/pacman.png"
 import colorblast from "@public/assets/gameposters/colorblast.jpg"
 import flappybird from "@public/assets/gameposters/flappybird.png"
-import guess from '@public/assets/gameposters/guess.png'
 import menja from '@public/assets/gameposters/menja.png'
 import snakeo from '@public/assets/gameposters/snakeo.png'
 import tetris from '@public/assets/gameposters/tetris.jpg'
 import tictac from '@public/assets/gameposters/tictactoe.png'
 import typeing from '@public/assets/gameposters/typing.jpeg'
+import rop from "@public/assets/gameposters/rockpaperscissor.png"
 
 function Games() {
   return (
@@ -85,13 +85,13 @@ function Games() {
             />
             <h1 className="text-xl">Typing</h1>
         </a>
-        <a target="_blank" className='hover:bg-pink-600 duration-200' href="https://memorybuilder.netlify.app/">
+        <a target="_blank" className='hover:bg-pink-600 duration-200' href="https://rockpaperscissorengame.netlify.app/">
             <Image className="block w-[200px] h-[250px] object-cover"
-                src={guess}
+                src={rop}
                 width={150}
                 height={20}
             />
-            <h1 className="text-xl">Memory Builder</h1>
+            <h1 className="text-xl">Rock Paper Scissor</h1>
         </a>
       </div>
     </div>
