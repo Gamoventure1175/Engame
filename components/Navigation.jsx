@@ -23,8 +23,8 @@ const Navigation = () => {
       >
         <Image 
             src='/assets/images/logo.png'
-            width={80}
-            height={80}
+            width={60}
+            height={60}
             alt="Engame"
             className=' block m-0 p-0'
         />

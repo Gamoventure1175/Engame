@@ -22,7 +22,7 @@ function Footer() {
             <Link href='' className="hover:bg-white hover:text-black duration-700 px-4 py-2 rounded-xl">r.r.kabilan2004@gmail.com</Link>
         </div>
         <div className="text-xl flex-1 text-center">
-            <p>© 2023 Engame Gaming Limited.</p>
+            <p>© 2023 EnGame Gaming Limited.</p>
         </div>
         <div className="text-lg flex-1  flex justify-center align-items-center gap-4">
             <Link href='' className="hover:underline">Legal</Link>

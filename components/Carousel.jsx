@@ -46,9 +46,7 @@ export default class NextJsCarousel extends Component {
 				<p className='text-2xl text-center px-52 text-gray-300'>
 				Welcome to the world of old games that for­med the history of the video gaming in­dus­try. These games represent the best vi­de­o games for the generations of those olden days.
 				</p>
-				<Link href='/' className='text-3xl py-2 px-4 border-2 border-white rounded-xl hover:bg-pink-500 hover:border-pink-500 duration-500'>
-					Games
-				</Link>
+
 			</div>
 			<Carousel 
 			showArrows={false} 

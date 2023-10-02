@@ -14,17 +14,10 @@ export const metadata = {
 
 
 const RootLayout = async({children}) => {
-
-  
-
-  
   const session = await getServerSession();
 
   return (
     <html lang="eng">
-      <head>
-        <link rel='icon' href='/favicon.ico' />
-      </head>
       <body>
         <SessionProvider session={session}>
           <div className='w-full main min-h-screen h-max box-border'>

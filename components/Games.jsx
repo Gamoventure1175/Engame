@@ -1,13 +1,13 @@
 import Image from 'next/image'
 import React from 'react'
-import pacman from "@public/assets/gameposters/pacman.jpg"
+import pacman from "@public/assets/gameposters/pacman.png"
 import colorblast from "@public/assets/gameposters/colorblast.jpg"
 import flappybird from "@public/assets/gameposters/flappybird.png"
 import guess from '@public/assets/gameposters/guess.png'
 import menja from '@public/assets/gameposters/menja.png'
 import snakeo from '@public/assets/gameposters/snakeo.png'
 import tetris from '@public/assets/gameposters/tetris.jpg'
-import tictac from '@public/assets/gameposters/tictactoe.jpg'
+import tictac from '@public/assets/gameposters/tictactoe.png'
 import typeing from '@public/assets/gameposters/typing.jpeg'
 
 function Games() {

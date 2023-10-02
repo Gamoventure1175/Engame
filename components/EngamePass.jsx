@@ -21,7 +21,7 @@ function EngamePass() {
           />
           <div>EnGame Pass</div>
         </div>
-        <p>Play everything from Space Invaders to Couter Strike. Unlock new and exclusive achievements and perks.</p>
+        <p>Play everything from Space Invaders to Counter Strike. Unlock new and exclusive achievements and perks.</p>
         <div>
           Coming Soon....
         </div>
