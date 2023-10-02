@@ -9,7 +9,6 @@ import '@styles/globals.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faUser } from '@fortawesome/free-solid-svg-icons'
 import { faBars } from "@fortawesome/free-solid-svg-icons";
-import NavOptions from './NavOptions'
 
 
 const Navigation = () => {
@@ -32,7 +31,6 @@ const Navigation = () => {
       </Link>
 
       <div className=' flex gap-6 items-center'>
-      <NavOptions className=" w-fit h-fit" />
 
 
         <div
