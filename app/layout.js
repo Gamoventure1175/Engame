@@ -13,7 +13,6 @@ export const metadata = {
 
 
 const RootLayout = async({children}) => {
-  const session = await getServerSession();
 
   return (
     <html lang="eng">
