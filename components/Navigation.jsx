@@ -31,7 +31,8 @@ const Navigation = () => {
       </Link>
 
       <div className=' flex gap-6 items-center'>
-      
+      <NavOptions className=" w-fit h-fit" />
+
 
         <div
           onClick={()=>setDropdown((prev) => !prev)}
