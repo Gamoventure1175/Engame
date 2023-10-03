@@ -85,7 +85,7 @@ function Games() {
             />
             <h1 className="text-xl">Typing</h1>
         </a>
-        <a target="_blank" className='hover:bg-pink-600 duration-200' href="https://rockpaperscissorengame.netlify.app/">
+        <a target="_blank" className='hover:bg-pink-600 duration-200' href="https://rockpaperscissorsengame.netlify.app/">
             <Image className="block w-[200px] h-[250px] object-cover"
                 src={rop}
                 width={150}
